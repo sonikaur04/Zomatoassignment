@@ -1,0 +1,239 @@
+body{
+    margin: auto;
+    background-color: rgb(156, 218, 180);
+}
+
+a{
+    text-decoration: none;
+}
+
+/*header Css*/
+#header{
+    width: 100%;
+    height: 58px;
+    /* border: 2px solid red; */
+    background-color:#e5dc87;
+}
+#icon{
+    float: left;
+    margin-top: -1%;
+    margin-left: 2%;
+    padding: 5px;
+
+}
+
+#social{
+    float: right;
+    
+}
+
+.logo{
+    width: 50px;
+    height:50px;
+       padding: 5px;
+
+}
+
+
+/*Search Css*/
+#search{
+    width: 100%;
+    height: 75vh;
+    background-image: url(/image/bak.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size:100% 75vh;
+    
+}
+
+#z-logo{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(194, 212, 199 );
+    opacity:50%;
+    /* border: 2px solid red; */
+    margin-top: 3%;
+    margin-left: 47% ;
+    border-radius: 50%;
+    position: absolute;
+    /* top: 2%; */
+    
+    
+
+}
+
+#z-logo > span{
+    margin-left: 33%;
+    margin-top: 14%;
+    font-size:90px;
+    position: absolute;
+    color:black;
+}
+
+#heading{
+    margin-left: 25%;
+    margin-top: 15%;
+    font-size:50px;
+    position: absolute;
+    color:#f24600;
+    font-weight: bold;
+    
+}
+
+.dropDown{
+    height: 60px;
+    width: 60%;
+    margin-left: 24%;
+    margin-top: 21%;
+    position: absolute;
+    /* border: 2px solid red ; */
+   
+}
+
+select{
+    height:60px;
+    width:40%;
+    font-size: 20px;
+    text-align: center;
+    background-color: khaki;
+
+
+}
+
+.rest{
+    width: 58%;
+}
+
+select:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+/*quickSearch Css*/
+#quickSearch{
+    width: 80%;
+    height: 95vh;
+    margin-left: 10%;
+    margin-top: 2%;
+    background-color: khaki;
+    
+}
+
+
+#quickHeading{
+    font-size: 30px;
+    color: #f24600;
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+#quickSubHeading{
+    font-size: 20px;
+    color: grey;
+    display: block;
+    line-height:35px;
+    margin-left: 2%;
+}
+
+.tileContainer{
+    height: 200px;
+    width:300px;
+    border: 10px groove #f0e68c;
+    box-shadow: 16px 21px 14px grey;
+    transition: 1s;
+   display:inline-block;
+   margin-left: 2%;
+   margin-top: 2%;
+   
+
+}
+
+.tileComponent1{
+    height:200px;
+    width: 50%;
+   
+    float: left;
+    border-radius: 10%;
+}
+
+.tileComponent1 > img{
+    height: 200px;
+    width: 100%;
+
+}
+
+
+.tileContainer:hover{
+    transform:scale(1.1);
+    z-index: 1;
+}
+.tileComponent2{
+    height:200px;
+    width: 50%;
+    background-color: khaki;
+    /* margin-top: 2%;
+    margin-left: 2%; */
+    /* border: 2 px solid green; */
+    /* background-color: red; */
+    float: left;
+}
+
+.ComponentHeading{
+    margin-top: 30%;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 30px;
+    color:#f24600;
+    font-weight: bold;
+    
+
+}
+
+.ComponentHeading > a{
+    color:#f24600;
+}
+
+.SubComponentHeading{
+    margin-top: 5%;
+    margin-left: 10%;
+    text-align: center;
+    color:grey;
+    
+}
+
+
+/*suggestion Css*/
+#suggestion{
+    width: 100%;
+    height: 20vh;
+    border: 2px dashed rgb(103, 14, 185);
+}
+
+/*footer Css*/
+#footer{
+    width: 100%;
+    height: 142px;
+    background-color:khaki;
+}
+
+#footText{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    height: 5px;
+    line-height: 4px;
+}
+
+.footDiv{
+    /* height: 60px; */
+    width: 33%;
+    border-right: 2px solid black;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+}
+
+.noBorder{
+   
+    /* display: none; */
+}
